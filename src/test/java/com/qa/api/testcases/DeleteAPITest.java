@@ -3,7 +3,6 @@ package com.qa.api.testcases;
 import org.testng.annotations.Test;
 
 import com.qa.api.base.TestBase;
-
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.mapper.ObjectMapper;
@@ -46,7 +45,7 @@ public class DeleteAPITest extends TestBase{
 	  String statusLine=resp.getStatusLine();
 	  System.out.println("Statusline is:"+statusLine);
 	  	    
-	  System.out.println("*************************************************************");
+	  System.out.println("End of Delete Api Test*************************************************************");
   }
   
   
