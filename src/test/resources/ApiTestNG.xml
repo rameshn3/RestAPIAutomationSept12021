@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestApiSuite">
+  <test thread-count="5" name="RestApiTest">
+    <classes>
+      <class name="com.qa.api.testcases.GetAPITest"/>
+      <class name="com.qa.api.testcases.PostAPITest"/>
+      <class name="com.qa.api.testcases.UpdateAPITest"/>
+       <class name="com.qa.api.testcases.DeleteAPITest"/>
+    </classes>
+  </test> <!-- RestApiTest -->
+</suite> <!-- RestApiSuite -->

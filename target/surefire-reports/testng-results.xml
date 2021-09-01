@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestApiSuite" duration-ms="6333" started-at="2021-09-01T08:14:02 IST" finished-at="2021-09-01T08:14:09 IST">
+    <groups>
+    </groups>
+    <test name="RestApiTest" duration-ms="6333" started-at="2021-09-01T08:14:02 IST" finished-at="2021-09-01T08:14:09 IST">
+      <class name="com.qa.api.testcases.PostAPITest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.api.testcases.PostAPITest@18eed359]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-09-01T08:14:07 IST" finished-at="2021-09-01T08:14:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="creatUserTest()[pri:0, instance:com.qa.api.testcases.PostAPITest@18eed359]" name="creatUserTest" duration-ms="558" started-at="2021-09-01T08:14:07 IST" finished-at="2021-09-01T08:14:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatUserTest -->
+      </class> <!-- com.qa.api.testcases.PostAPITest -->
+      <class name="com.qa.api.testcases.UpdateAPITest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.api.testcases.UpdateAPITest@3e9b1010]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-09-01T08:14:08 IST" finished-at="2021-09-01T08:14:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="updateUserTest()[pri:0, instance:com.qa.api.testcases.UpdateAPITest@3e9b1010]" name="updateUserTest" duration-ms="402" started-at="2021-09-01T08:14:08 IST" finished-at="2021-09-01T08:14:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method status="PASS" signature="updateUserWithPatchTest()[pri:0, instance:com.qa.api.testcases.UpdateAPITest@3e9b1010]" name="updateUserWithPatchTest" duration-ms="401" started-at="2021-09-01T08:14:08 IST" finished-at="2021-09-01T08:14:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserWithPatchTest -->
+      </class> <!-- com.qa.api.testcases.UpdateAPITest -->
+      <class name="com.qa.api.testcases.GetAPITest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.api.testcases.GetAPITest@3108bc]" name="beforeClass" is-config="true" duration-ms="539" started-at="2021-09-01T08:14:03 IST" finished-at="2021-09-01T08:14:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="fetchListOfUsersTest()[pri:0, instance:com.qa.api.testcases.GetAPITest@3108bc]" name="fetchListOfUsersTest" duration-ms="3750" started-at="2021-09-01T08:14:03 IST" finished-at="2021-09-01T08:14:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchListOfUsersTest -->
+        <test-method status="PASS" signature="fetchSingleUserNotFoundTest()[pri:0, instance:com.qa.api.testcases.GetAPITest@3108bc]" name="fetchSingleUserNotFoundTest" duration-ms="140" started-at="2021-09-01T08:14:07 IST" finished-at="2021-09-01T08:14:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSingleUserNotFoundTest -->
+        <test-method status="PASS" signature="fetchSingleUserTest()[pri:0, instance:com.qa.api.testcases.GetAPITest@3108bc]" name="fetchSingleUserTest" duration-ms="78" started-at="2021-09-01T08:14:07 IST" finished-at="2021-09-01T08:14:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSingleUserTest -->
+      </class> <!-- com.qa.api.testcases.GetAPITest -->
+      <class name="com.qa.api.testcases.DeleteAPITest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.api.testcases.DeleteAPITest@6c3708b3]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-09-01T08:14:08 IST" finished-at="2021-09-01T08:14:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:com.qa.api.testcases.DeleteAPITest@6c3708b3]" name="deleteUserTest" duration-ms="403" started-at="2021-09-01T08:14:08 IST" finished-at="2021-09-01T08:14:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+      </class> <!-- com.qa.api.testcases.DeleteAPITest -->
+    </test> <!-- RestApiTest -->
+  </suite> <!-- RestApiSuite -->
+</testng-results>

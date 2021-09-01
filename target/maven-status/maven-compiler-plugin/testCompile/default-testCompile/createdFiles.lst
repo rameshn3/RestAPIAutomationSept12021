@@ -1,0 +1,5 @@
+com\qa\api\testcases\PostAPITest.class
+com\qa\api\testcases\DeleteAPITest.class
+com\qa\api\testcases\GetAPITest.class
+com\qa\api\base\TestBase.class
+com\qa\api\testcases\UpdateAPITest.class
